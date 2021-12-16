@@ -1,0 +1,86 @@
+body {
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+}
+
+/* Nav */
+
+nav {
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.menu {
+    border: 2px solid red;
+    display: flex;
+    margin-right: 10px;
+}
+
+.menu li {
+    margin-left: 34px;
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: seashell;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    margin: auto 0;
+    margin-left: 10px;
+}
+
+/* Header */
+
+header {
+    border: 2px solid red;
+    background-image: url("../img/img-mission-background.webp");
+    display: flex;
+    margin: 0 auto;
+    height: 700px;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-head {
+    border: 2px solid red;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* Main */
+
+main {
+    border: 2px solid red;
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+}
+
+/* Footer */
+
+footer {
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.copyright {
+    width: 1200px;
+    margin: 0 auto;
+}
